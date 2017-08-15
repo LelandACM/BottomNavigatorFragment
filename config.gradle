@@ -1,0 +1,36 @@
+//version config gradle
+ext {
+    android = [
+            //IDE work version
+            packageName      : "cn.net.bestsource",
+            compileSdkVersion: 26,
+            buildToolsVersion: "26.0.1",
+            minSdkVersion    : 15,
+            targetSdkVersion : 26,
+
+            //app version
+            versionCode      : 1,
+            versionName      : "1.0.0",
+
+            //android support ui version
+            androidSupport   : "25.3.0",
+
+            //di
+            butterknife      : "8.5.1",
+    ]
+    dependencies = [
+            //test
+            "junit"                      : "junit:junit:4.12",
+            "androidJUnitRunner"         : "android.support.test.runner.AndroidJUnitRunner",
+
+            //android support 、design
+            "design"                     : "com.android.support:design:${android["androidSupport"]}",
+            "support-v4"                 : "com.android.support:support-v4:${android["androidSupport"]}",
+            "appcompat-v7"               : "com.android.support:appcompat-v7:${android["androidSupport"]}",
+            "annotations"                : "com.android.support:support-annotations:${android["androidSupport"]}",
+
+            //di
+            "butterknife"                : "com.jakewharton:butterknife:${android["butterknife"]}",
+            "butterknife-compiler"       : "com.jakewharton:butterknife-compiler:${android["butterknife"]}",
+    ]
+}
