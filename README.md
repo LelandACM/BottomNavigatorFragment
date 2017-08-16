@@ -149,7 +149,7 @@ viewPager.addOnPageChangeListener(onPageChangeListener);
 2.禁止ShiftingMode动画<https://stackoverflow.com/questions/40972293/remove-animation-shifting-mode-from-bottomnavigationview-android>
 
 **八、简书博客传送门**
-<https://github.com/GitACDreamer/BottomNavigatorFragment>
+<http://www.jianshu.com/p/6809d422b7d5>
 
 希望大家多多关注star and fork，各位觉得如果有帮助给个赞，谢谢！
 
