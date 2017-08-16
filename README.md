@@ -37,7 +37,11 @@ private ViewPager.OnPageChangeListener onPageChangeListener = new ViewPager.OnPa
     }
 };
 ```
+<<<<<<< HEAD
 **三、  点击不同的按钮相应对应的item，随之切换显示相应的`Fragment` 页面**
+=======
+**三、  点击不同的按钮相应对应的item，随之切换显示相应的`Fragment` 页面
+>>>>>>> origin/master
 ```
 private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
         = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -140,9 +144,13 @@ viewPager.addOnPageChangeListener(onPageChangeListener);
 最终效果如下一个是可以滑动翻页、一个是禁用
 
 ![不禁用.gif](http://upload-images.jianshu.io/upload_images/4073499-a00676fb5b84adef.gif?imageMogr2/auto-orient/strip)![禁止滑动翻页.gif](http://upload-images.jianshu.io/upload_images/4073499-d1349f55a65c5fc7.gif?imageMogr2/auto-orient/strip)
+<<<<<<< HEAD
 
 **七、参考链接**
 
+=======
+**七、参考链接**
+>>>>>>> origin/master
 1.禁止滑动翻页:<https://stackoverflow.com/questions/9650265/how-do-disable-paging-by-swiping-with-finger-in-viewpager-but-still-be-able-to-s> `[Rajul](https://stackoverflow.com/users/1097358/rajul)`的回答更好
 
 2.禁止ShiftingMode动画<https://stackoverflow.com/questions/40972293/remove-animation-shifting-mode-from-bottomnavigationview-android>
